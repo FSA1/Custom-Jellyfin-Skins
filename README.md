@@ -9,6 +9,10 @@
 - Pré-visualizações e organização para facilitar o uso
 - Código aberto e pronto para colaboração
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/FSA1/Custom-Jellyfin-Skins/refs/heads/main/themes/amazon/preview.png" alt="Pré-visualização do tema 'Prime'" width="600">
+</p>
+
 > ⚠️ **Aviso:** Este projeto **não é afiliado oficialmente ao Jellyfin**.  
 > É um trabalho da comunidade, feito por fãs e para fãs.  
 > Jellyfin é uma marca registrada de seus respectivos desenvolvedores.
