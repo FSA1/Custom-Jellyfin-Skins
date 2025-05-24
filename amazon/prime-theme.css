@@ -1,0 +1,410 @@
+/*Amazon Prime Colors
+:root{
+--dark_blue: #0072F9;
+--midi_blue: #1586e1;
+--light_blue: #1a98ff;
+--light_green: #30D390;
+--yellow: #F2EC11;
+--buy_buttom: #FFD62C;
+--grey_buttom: #393A3E;
+}
+*/
+/*CustomFonts*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+/*
+font-family: 'Amazon Ember', sans-serif;
+font-family: 'Amazon Ember Cd RC', sans-serif;
+font-family: 'Amazon Ember Display', sans-serif;
+font-family: 'Amazon Ember Duospace', sans-serif;
+font-family: 'Amazon Ember Mono', sans-serif;
+font-family: 'Amazon Ember V2', sans-serif;
+*/
+
+body {
+    font-family: 'Amazon Ember', sans-serif!important;
+}
+
+h1, h2, h3 {
+   font-family: 'Amazon Ember', sans-serif!important;
+}
+
+.cardText,
+.tagline, 
+.textActionButton:not([data-type="Actor"]){
+	color: #30D390;
+}
+.cardText-secondary,
+.cardText-secondary .textActionButton {
+	color: #919191!important;
+}
+
+.textActionButton:hover {
+	color: #F2EC11!important;
+}
+
+.toast,
+.visualCardBox,
+.cardOverlayContainer,
+.cardBox:not(.visualCardBox) .cardPadder,
+.blurhash-canvas,
+.cardImageContainer,
+.cardContent {
+	border-radius: 0.4em;
+}
+
+.Mui-selected {
+    background-color: #0072f9b5!important;
+}
+
+/*Change Jellyfin logo*/    
+.pageTitleWithDefaultLogo {
+
+	background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Amazon_Prime_logo_%282024%29.svg/330px-Amazon_Prime_logo_%282024%29.svg.png');
+	
+}
+.pageTitleWithLogo {
+	background-position: 0!important;
+	background-repeat: no-repeat!important;
+	background-size: contain!important;
+	width: 13.2em!important;
+	height: 2em;
+}
+
+/*Change Accent Color*/
+.defaultCardBackground3{
+    border-color: #0072F9;
+}
+.mdl-spinner__layer-1 {
+    border-color: #0072F9;
+}
+
+.mdl-spinner__layer-2 {
+    border-color: #0072F9;
+}
+
+.mdl-spinner__layer-3 {
+    border-color: #0072F9;
+}
+
+.mdl-spinner__layer-4 {
+    border-color: #0072F9;
+}
+
+.listItemIcon:not(.listItemIcon-transparent) {
+    background-color: #1586e1!important;
+}
+
+progress::-moz-progress-bar {
+    background-color: #0072F9;
+}
+
+progress::-webkit-progress-value {
+    background-color: #0072F9;
+}
+
+progress[aria-valuenow]:before {
+    background-color: #0072F9;
+}
+
+div[data-role=controlgroup] a.ui-btn-active {
+    background: #0072F9 !important;
+}
+
+.playbackProgress>div {
+    background-color: #0072F9;
+}
+
+.button-accent-flat {
+    color: #0072F9 !important;
+}
+/*Theme.css accent color*/
+@media (hover: hover) and (pointer: fine) {
+    .paper-icon-button-light:hover:not(:disabled) {
+        color: #0072F9;
+        background-color: rgba(0, 164, 220, 0.2);
+    }
+}
+
+.paper-icon-button-light:active:not(:disabled) {
+    color: #0072F9;
+    background-color: rgba(0, 164, 220, 0.2);
+}
+
+.paper-icon-button-light.show-focus:focus {
+    color: #0072F9;
+}
+
+.button-submit {
+    background: #0072F9;
+    color: #fff;
+}
+
+.inputLabelFocused,
+.selectLabelFocused,
+.textareaLabelFocused {
+    color: #0072F9;
+}
+
+.itemSelectionPanel {
+    border: 1px solid #0072F9;
+}
+
+.selectionCommandsPanel {
+    background: #0072F9;
+    color: #fff;
+}
+
+.upNextDialog-countdownText {
+    color: #0072F9;
+}
+
+.alphaPickerButton-tv:focus {
+    background-color: #0072F9;
+    color: #fff !important;
+}
+
+.progressring-spiner {
+    border-color: #0072F9;
+}
+
+.button-flat:hover {
+    color: #0072F9;
+}
+
+.button-link {
+    color: #0072F9;
+}
+
+.emby-input:focus,
+.emby-textarea:focus {
+    border-color: #0072F9;
+}
+
+.emby-select-withcolor:focus {
+    border-color: #0072F9 !important;
+}
+
+.emby-select-tv-withcolor:focus {
+    background-color: #0072F9 !important;
+    color: #fff !important;
+}
+
+.emby-checkbox:checked + span + .checkboxOutline {
+    border-color: #0072F9;
+}
+
+.emby-checkbox:focus:not(:checked) + span + .checkboxOutline {
+    border-color: #0072F9;
+}
+
+.emby-checkbox:checked + span + .checkboxOutline,
+.itemProgressBarForeground {
+    background-color: #0072F9;
+}
+
+.countIndicator,
+.fullSyncIndicator,
+.mediaSourceIndicator,
+.playedIndicator {
+    background: #0072F9;
+}
+
+.navMenuOption-selected {
+    background: #0072F9 !important;
+}
+
+.emby-button {
+	transition: none;
+}
+/*.movie.navMenuOptionIcon:hover,
+.tv.navMenuOptionIcon:hover,
+.navMenuOptionText:hover,*/
+a.emby-button:hover{
+	color: #F2EC11!important;
+}
+
+.emby-button.detailFloatingButton {
+    background-color: #0072F9;
+}
+
+.cardImageContainer.emby-button:hover{
+	color: #e6e7e7!important;
+}
+
+.emby-button.show-focus:focus {
+    background: #0072F9;
+}
+
+.layout-tv .emby-button.detailFloatingButton:focus {
+    background-color: #f2f2f2;
+    color: #0072F9;
+}
+
+.emby-tab-button.show-focus:focus {
+    color: #0072F9;
+}
+
+.emby-tab-button:hover {
+    color: #0072F9;
+}
+
+.guide-channelHeaderCell:focus,
+.programCell:focus {
+    background-color: #0072F9 !important;
+}
+
+.guide-date-tab-button.emby-tab-button-active,
+.guide-date-tab-button:focus {
+    color: #0072F9;
+}
+
+.guide-date-tab-button.show-focus:focus {
+    background-color: #0072F9;
+}
+
+.buttonActive {
+    color: #0072F9 !important;
+}
+
+.card:focus .cardBox.visualCardBox,
+.card:focus .cardBox:not(.visualCardBox) .cardScalable {
+    border-color: #0072F9 !important;
+}
+
+.metadataSidebarIcon {
+    color: #0072F9;
+}
+
+#dialogToc .bookplayerButtonIcon:hover {
+    color: #0072F9;
+}
+
+#dialogToc .toc li a:active,
+#dialogToc .toc li a:hover {
+    color: #0072F9;
+}
+
+/*playback-video - #1a98ff*/
+.mdl-slider {
+    color: #0072F9;
+}
+
+.mdl-slider::-webkit-slider-thumb {
+    background: #0072F9;
+}
+
+.mdl-slider::-moz-range-thumb {
+    background: #0072F9;
+}
+
+.mdl-slider::-ms-thumb {
+    background: #0072F9;
+}
+.mdl-slider-background-lower {
+    background-color: #0072F9;
+}
+
+.sliderMarker.watched {
+    background-color: #0072F9
+}
+
+/*--05-23-2025--*/
+
+.actionSheetContent .listItem:focus {
+	background: rgb(47, 54, 64);
+}
+
+.actionSheetContent .listItem:hover {
+	background: #e6e7e7;
+	color: #00050d;
+}
+
+.dialog{
+	border-radius: 8px!important;
+}
+div.dialogContainer > div > div > div > button:first-child{
+	border-radius: 8px 8px 0 0!important;
+}
+div.dialogContainer > div > div > div > button:last-child{
+	border-radius: 0 0 8px 8px!important;
+}
+
+/*.skinHeader-withBackground {
+    background-color: #202020;
+}*/
+.skinHeader-withBackground,
+.dialog,
+.mainDrawer, .drawer-open {
+	-webkit-backdrop-filter: blur(16px);
+	backdrop-filter: blur(16px);
+	background-color: rgba(25,30,37,.8);
+}
+
+.cardOverlayContainer>.cardOverlayFab-primary {
+	background-color: #0072f978;
+}
+
+.paper-icon-button-light:hover:not(:disabled) {
+	color: #e6e7e7;
+	background-color: #e6e7e73b;
+}
+
+.emby-tab-button {
+	line-height: 0.8!important;
+	font-family: 'Amazon Ember Display', sans-serif;
+	/*font-size: 1em!important;*/
+	font-style: normal;
+	font-weight: 500!important;
+	letter-spacing: .04em!important;
+	-webkit-font-smoothing: antialiased;
+	color: #e6e7e7;
+	margin: .5em .2em!important;
+	padding: .7em!important;
+}
+
+.emby-tab-button:hover{
+	background: #e6e7e7;
+	color: #00050d!important;
+	border-radius: 8px;
+	transition: .2s;
+	transition-property: color,background-color,box-shadow;
+}
+
+.emby-tab-button-active,
+.navMenuOption:hover {
+	border-radius: 8px;
+	background: radial-gradient(50% 50% at 50% 0,rgba(var(--action-background-color,255,255,255),.8) 0,transparent 100%),hsla(0,0%,100%,.2);
+	background-origin: border-box;
+	border-image: linear-gradient(90deg,hsla(0,0%,100%,0) 10%,hsla(0,0%,100%,.3) 50%,hsla(0,0%,100%,0) 90%) 1/2px;
+	border-image-width: 2px 0 0 0;
+	box-shadow: 0 -4px 16px 0 rgba(var(--action-background-color,255,255,255),.2);
+}
+
+.sectionName.navMenuOptionText{
+	-webkit-font-smoothing: antialiased;
+}
+
+.navMenuOption{
+	color: #e6e7e7!important;
+}
+  
+.defaultCardBackground1 {
+	background-color: #0b5ea1;
+}   
+.defaultCardBackground2 {
+	background-color: #0364b5;
+}   
+.defaultCardBackground3 {
+	background-color: #1e74b9;
+}   
+.defaultCardBackground4 {
+	background-color: #1b73ae;
+}   
+.defaultCardBackground5 {
+	background-color: #337cb7;
+}   
+.defaultCardBackground6 {
+	background-color: #0060ad;
+}
