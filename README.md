@@ -27,4 +27,5 @@ Partes do código (incluindo o tema base "Dark") são baseadas no projeto [Jelly
 3. No campo **CSS personalizado**, cole a seguinte linha:
 
    ```css
-   @import url('https://github.com/FSA1/Custom-Jellyfin-Skins/raw/refs/heads/main/themes/amazon/prime-theme.css');
+	@import url('https://cdn.jsdelivr.net/gh/FSA1/Custom-Jellyfin-Skins/themes/dark/theme.css');
+	@import url('https://cdn.jsdelivr.net/gh/FSA1/Custom-Jellyfin-Skins/themes/amazon/prime-theme.css');
