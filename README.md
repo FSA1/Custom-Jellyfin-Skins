@@ -13,9 +13,19 @@
   <img src="https://raw.githubusercontent.com/FSA1/Custom-Jellyfin-Skins/refs/heads/main/themes/amazon/preview.png" alt="Pré-visualização do tema 'Prime'" width="600">
 </p>
 
-> ⚠️ **Aviso:** Este projeto **não é afiliado oficialmente ao Jellyfin**.  
-> É um trabalho da comunidade, feito por fãs e para fãs.  
-> Jellyfin é uma marca registrada de seus respectivos desenvolvedores.
+---
+
+> **Aviso legal**  
+> Este projeto não é afiliado, patrocinado ou endossado por nenhuma das marcas mencionadas.  
+>  
+> **Jellyfin** é uma marca registrada de seus respectivos desenvolvedores. O uso do nome e da interface base do Jellyfin neste projeto é feito unicamente para fins de personalização, sem a intenção de representar oficialmente a equipe do Jellyfin.  
+>  
+> **Amazon** e **Amazon Prime Video**, bem como seus logotipos e quaisquer imagens relacionadas, são marcas registradas da Amazon.com, Inc. ou de suas afiliadas. O uso de nomes ou elementos visuais inspirados nesses serviços é apenas para fins ilustrativos e de personalização visual, sem intenção de violar direitos autorais ou de marca.
+
+
+## Plugins Recomendados
+Editor's Choice (https://github.com/lachlandcp/jellyfin-editors-choice-plugin)
+Editor's Choice is a plugin for the Jellyfin web UI that adds a full-width slider to the main page to feature selected content, similar to the main Netflix home page.
 
 ## Licença
 

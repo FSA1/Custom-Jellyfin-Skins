@@ -1,0 +1,8 @@
+Images to replace in the server jellyfin-web folder.
+
+Always make backup of files before any change.
+To restore images, unpack zipped backup images that
+are in this pack or use your own backup files.
+
+All logos from Amazon belong to Amazon, this is just
+a mod for fun and for personal use.
